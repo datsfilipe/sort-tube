@@ -18,7 +18,7 @@ const routes = {
 
 router.get("/", (_, response) => {
   return response.json({
-    message: "Welcome to the Random Tweet API!",
+    message: "Welcome to the ScrapAI API!",
     routes,
   });
 });

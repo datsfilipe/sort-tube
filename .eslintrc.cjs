@@ -18,6 +18,7 @@ module.exports = {
     "@typescript-eslint"
   ],
   "rules": {
+    "@typescript-eslint/ban-ts-comment": "warn",
     "indent": [
       "error",
       2

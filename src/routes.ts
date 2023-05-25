@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { RandomTweetController } from "./controllers/randomTweetController";
+import { SearchVideosController } from "./controllers/searchVideosController";
 
 const router = Router();
 
@@ -23,6 +23,6 @@ router.get("/", (_, response) => {
   });
 });
   
-router.get("/random-tweet", new RandomTweetController().handle);
+router.get("/videos", new SearchVideosController().handle);
 
 export default router;
